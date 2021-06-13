@@ -4,7 +4,7 @@
 //
 //  Created by Fedor Pugin  on 29.05.2021.
 //
-
+// hw 1 end
 import UIKit
 
 class LoginViewController: UIViewController {
@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
             let password = passwordTextField.text!
             
             // Проверяем, верны ли они
-            if login == "admin" && password == "123456" {
+            if login == "123" && password == "123" {
                 print("успешная авторизация")
             } else {
                 print("неуспешная авторизация")
